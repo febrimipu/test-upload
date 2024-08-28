@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "date-fns",
+    "lodash"
+  ],
+  "presets": [
+    "preact",
+    ["env", {
+      "useBuiltIns": "entry",
+      "targets": {
+        "browsers": [
+          "last 2 versions"
+        ]
+      }
+    }]
+  ]
+}
